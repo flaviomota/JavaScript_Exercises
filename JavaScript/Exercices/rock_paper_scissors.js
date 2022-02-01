@@ -1,3 +1,17 @@
+/*****************************************************************************
+EN:
+	Rock, paper, scissors is a classic two player game.
+	Each player chooses either rock, paper, or scissors.
+	The items are compared, and whichever player chooses the more powerful
+	item wins.
+
+PT-PT:
+	Pedra, papel, tesoura é um clássico jogo de dois jogadores.
+	Cada jogador escolhe pedra, papel ou tesoura. Os itens são comparados e o
+	jogador que escolher o item mais poderoso vence.
+
+*****************************************************************************/
+
 const getUserChoice = userInput => {
 	userInput = userInput.toLowerCase();
 	if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors') {

@@ -1,3 +1,18 @@
+/*****************************************************************************
+EN:
+	In this project I will build a Magic Eight Ball using JavaScript control 
+	flow.
+	The user will be able to enter a question, then our program will produce 
+	a random luck.
+
+PT-PT:
+	Neste projeto vou construir um Magic Eight Ball utilizando control flow 
+	em JavaScript.
+	O utilizador poderá inserir uma pergunta, e depois o nosso programa 
+	produzirá uma sorte aleatória.
+
+*****************************************************************************/
+
 let userName = 'Flávio';
 userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
 

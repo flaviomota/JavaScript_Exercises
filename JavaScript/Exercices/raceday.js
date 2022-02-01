@@ -1,3 +1,16 @@
+/*****************************************************************************
+EN:
+	Create a program that registers the runners of a race and will give them
+	instructions on race day, subject to conditions previously established in
+	the registration.
+
+PT-PT:
+	Criar um programa que registra os corredores de uma corrida e lhes dará 
+	instruções no dia da corrida, medinte condições previamente estabelecidas 
+	na inscrição.
+
+*****************************************************************************/
+
 let raceNumber = Math.floor(Math.random() * 1000);
 
 let early = true;
