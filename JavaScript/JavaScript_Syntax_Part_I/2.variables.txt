@@ -1,0 +1,111 @@
+Variables:
+
+	-> contém valores armazenados (containers);
+	-> devem ser rotuladas ou nomeadas;
+		apenas podemos:
+			- criar uma variável e atribuir-lhe um nome descritivo dos dados que contém;
+			- guardar ou alterar informação armazenada;
+			- referenciar ou 
+			obter dados guardados nas variáveis;
+
+var:
+
+	-> diminutivo para variável;
+
+	Ex.:
+	var myName = 'Arya';	// armazena a string 'Arya' na variável myName
+	console.log(myName);	// prints: Arya
+
+	var 	-> diminutivo de variável;
+	myName	-> nome atribuido À variável;
+	=		-> operador que atribui valor à variável;
+	'Arya'	-> valor armazenado na variável;
+
+	-> var pode ser declarada sem valor (undefined);
+
+let:
+
+	-> forma de criar uma variável em que o seu valor pode ser alterado no futuro;
+
+	Ex.:
+	let meal = 'Enchiladas';	// armazena a string 'Enchiladas' na variável meal;
+	console.log(meal);			// prints: Enchiladas;
+	meal = 'Burrito';			// altera o valor de meal para 'Burrito';
+	console.log(meal);			// prints: Burrito;
+
+	-> let price; -> variável criada sem valor definido (undefined);
+
+const:
+
+	-> diminutivo de constante;
+	-> não pode ser redefinido o seu valor depois de atribuido um valor;
+	-> devem ter sempre um valor atribuido quando criadas, não devem ser criadas em branco;
+
+	Ex.:
+	const myName = 'Gilberto';	// armazena a string 'Gilberto' na variavel myName;
+	console.log(myName);		// prints: Gilberto;
+
+Matematical Assionment Operators:
+
+	let w = 4;
+	w += 1;			// o mesmo que w = w + 1;
+	console.log(w)	// output: 5
+
+	let x = 20;
+	z -= 5;			// o mesmo que z = z - 5;
+	console.log(z);	// output: 15
+
+	let y = 50;
+	y *= 2;			// o mesmo que y = y * 2;
+	console.log(y);	// output: 100
+
+	let v = 10;
+	v /= 2;			// o mesmo que v = v / 2;
+	console.log(v);	// output: 5;
+
+The Increment and Decrement Operator:
+
+	++	-> incrementa (+1);
+	--	-> decrementa (-1);
+
+	Ex.:
+	let a = 10;
+	a++;
+	console.log(a);		// output: 11
+
+	let b = 20;
+	b--;
+	console.log(b);		// output: 19
+
+String Concatenation with Variables:
+
+	+	-> pode ser utilizado para combinar duas ou mais strings;
+
+	Ex.:
+	let myPet = 'Armadillo';
+	console.log('I own a pet ' + myPet + '.');		// output: I own a pet Armadillo.
+
+String Interpolation:
+
+	-> podemos juntar variáveis através de templates literals;
+	-> templates são contidos por `...`;
+	-> dentro do template encontramos um placeholder ${nome_da_variável};
+	-> quando interpolamos, o output vai adicionar à string o valor da variável no local do placeholder;
+
+	Ex.:
+	const myPet = 'Armadillo';
+	console.log(`I own a pet ${myPet}.`)		// output: I own a pet Armadillo.
+
+typeof Operator:
+
+	-> serve para verificar qual o tipo da variável que estamos a utilizar;
+
+	Ex.:
+	const unknown1 = 'foo';
+	console.log(typeof unknown1);		// output: string;
+
+	const unknown2 = 10;
+	console.log(typeof unknown2);		// output: number;
+
+	const unknown3 = true;
+	console.log(typeof unknown3);		// output: booelan;

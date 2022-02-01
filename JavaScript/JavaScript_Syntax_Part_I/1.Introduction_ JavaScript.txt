@@ -1,0 +1,90 @@
+Console:
+
+	console.log(...);
+		- o que for passado como parametro vai ser printed ou logged na consola
+		- ; -> não é obrigatória neste caso, mas usar pois vai ser necessária em casos especificos e assim evitamos alguns erros de sintax
+	
+Comments:
+
+	-> são feitos para ajudar a organizar o nosso código;
+	-> podem explicar o que determina e o que faz cada linha de código;
+
+	// -> comentários feitos numa única linha;
+	/* ... */ -> comentários que ocupam várias linhas;
+
+Data Types:
+
+	Primitive Data Types:
+		- Number: 4 , 8, 1516, 23.42;
+		- String: grupo de caracteres ladeado por '...' ou "...";
+		- Booelan: devolve dois valores possiveis: true / false;
+		- Null: ausencia intencional de valor, presentado por: null(keyword);
+		- Undefined: também representa ausencia intencional de valor, mas tem uma aplicação diferente do null.
+						representado por: undefined(keyword);
+		- Symbol: identificadores úncios;
+		- Object: coleções de dados relacionados;
+
+	Ex.:
+	console.log('Location of CodeAcademy Headquarters: 575 Broaday, New York');
+	console.log(40);
+
+Arithmetic Operators:
+
+	-> são caracteres que desempenham uma tarefa que permite calcular e efetuar operações matemáticas:
+
+		+ -> soma;
+		- -> subtração;
+		* -> multiplicação;
+		/ -> divisão;
+		% -> resto da divisão(modulo)
+	
+	Ex.:
+	console.log(10 + 3.5) 		// prints: 13.5
+	console.log(2022 - 1969)	// prints: 53
+	console.log(65 / 240)		// prints: 0.270833333
+	console.log(0.2708 * 100)	// prints: 27.08
+
+String Concatenation:
+
+	-> processo de append(anexar) uma string a outra string chama-se Concatenation;
+
+	Ex.:
+	console.log('String1' + ' ' + 'String2');	// prints: 'String1 String2'
+
+Properties:
+
+	.length -> armazena o número de caracteres contidos numa string;
+
+	. -> (ponto final) é considerado um operador
+
+	Ex.:
+	console.log('Hello'.length);	// prints: 5
+
+Methods:
+
+	-> métodos são ações que podemos realizar em JavaScript;
+
+	append(anexando) à instancia:
+		- . -> (ponto final);
+		- o nome do método;
+		- abrir e fechar parentises;
+	
+	Ex.:
+	console.log('Hello'.toUpperCase())	// prints: HELLO
+	console.log('Hey'.startsWith('H'))	// prints: true
+
+Built-in Objects:
+
+	-> podem servir para realizar taredas matemáticas mais complexas;
+	-> são funções já construidas, com tarefas estipuladas e prontas a serem utilizadas;
+
+	Ex.:
+	console.log(Math.random());					// prints: um número aleatório entre 0(inclusive) e 1(exclusive);
+	console.log(Math.random() * 50);			// prints: um número aleatório entre 0 e 50, mas o número terá inumeras casas décimais;
+	console.log(Math.floor(Math.random() * 50))	// prints: um número inteiro aleatóiro entre 0 e 50
+
+	podemos também utilizar:
+	Math.random();
+	Math.random() * 50;
+	Math.floor(Math.random() * 50);
+		-> desta forma os valores são apenas armazenados e não impressos ou apresentados como output
