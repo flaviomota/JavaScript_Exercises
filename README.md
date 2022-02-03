@@ -8,7 +8,8 @@
   - Sleep Debt Calculator;
   - Training Days -> Assigns a goal and defines how many training days it takes to reach that goal.;
 ### Number Guesser:
-  - 	In this project, I'm going to create JavaScript functions to feed a little guessing game. The code runs in the browser instead of just in the terminal.
+  - 	In this project, I'm going to create JavaScript functions to feed a little guessing game. The code runs in the
+  browser instead of just in the terminal.
 
 #### **PT-PT**:
 ## Neste repositório estão alguns dos meus projetos desenvolvidos em JavaScript. Neste momento podemos encontrar projetos como:
@@ -19,4 +20,5 @@
   - Calculadora de débito de sono;
   - Dias de Treino -> Atribui um objetivo e define quantos dias de treino são precisos para chegar a esse objetivo.;
 ### Number Guesser:
-  - 	Neste projeto, irei criar funções em JavaScript para alimentar um pequeno jogo de adivinhação. O código é executado no navegador em vez de apenas no terminal.
+  - 	Neste projeto, irei criar funções em JavaScript para alimentar um pequeno jogo de adivinhação. O código é executado no
+  navegador em vez de apenas no terminal.
