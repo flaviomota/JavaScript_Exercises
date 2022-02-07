@@ -6,12 +6,12 @@ EN:
 	night of the last week.
 	Finally, it will calculate, in hours, how far you are from your weekly
 	sleep goal.
-
+	
 PT-PT:
 	Neste projeto, podemos calcular se o utilizador está dormindo o tempo
 	suficiente a cada semana utilizando uma calculadora de débito de sono.
 	O programa determinará as horas de sono reais e ideais para cada noite
-	da última semana.
+	da última semana. 
 	Por fim, ele calculará, em horas, a que distância deverá estar a meta
 	semanal de sono.
 
