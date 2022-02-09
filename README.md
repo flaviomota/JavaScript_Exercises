@@ -3,6 +3,7 @@
 ## In this repository are some of my projects developed in JavaScript. At the moment we can find projects such as:
 ### Exercises:
   - Magic 8 ball;
+  - Meal Maker -> create a three-course meal based on what is available on a menu. We’ll keep running it until we’re satisfied with the generated meal;
   - Raceday -> simulator for registering athletes for a race;
   - Rock, paper, scissors -> the game;
   - Sleep Debt Calculator;
@@ -14,6 +15,7 @@
 ## Neste repositório estão alguns dos meus projetos desenvolvidos em JavaScript. Neste momento podemos encontrar projetos como:
 ### Exercises:
   - Magic 8 ball;
+  - Meal Maker -> criar uma refeição de três pratos com base no que está disponível em um menu. Continuaremos executando até ficarmos satisfeitos com a refeição gerada;
   - Raceday -> simulador de inscrição de atletas para uma corrida;
   - Pedra, papel, tesoura -> o jogo;
   - Calculadora de débito de sono;
