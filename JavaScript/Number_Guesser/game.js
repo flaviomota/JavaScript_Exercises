@@ -52,6 +52,7 @@ guessButton.addEventListener('click', () => {
 });
 
 nextRoundButton.addEventListener('click', () => {
+	
   // Increase the round number
   advanceRound();
   // Display the new round number
@@ -93,6 +94,8 @@ const handleValueChange = value => {
     subtractButton.setAttribute('disabled', true);
   }
 }
+
+
 
 humanGuessInput.addEventListener('input', function(e) {
   handleValueChange(e.target.value);

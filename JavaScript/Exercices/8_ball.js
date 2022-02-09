@@ -4,7 +4,7 @@ EN:
 	flow.
 	The user will be able to enter a question, then our program will produce 
 	a random luck.
-
+	
 PT-PT:
 	Neste projeto vou construir um Magic Eight Ball utilizando control flow 
 	em JavaScript.
