@@ -6,6 +6,7 @@
   - Meal Maker -> create a three-course meal based on what is available on a menu. We’ll keep running it until we’re satisfied with the generated meal;
   - Raceday -> simulator for registering athletes for a race;
   - Rock, paper, scissors -> the game;
+  - Team Stats;
   - Sleep Debt Calculator;
   - Training Days -> Assigns a goal and defines how many training days it takes to reach that goal.;
 ### Number Guesser:
@@ -18,6 +19,7 @@
   - Meal Maker -> criar uma refeição de três pratos com base no que está disponível em um menu. Continuaremos executando até ficarmos satisfeitos com a refeição gerada;
   - Raceday -> simulador de inscrição de atletas para uma corrida;
   - Pedra, papel, tesoura -> o jogo;
+  - Team Stats;
   - Calculadora de débito de sono;
   - Dias de Treino -> Atribui um objetivo e define quantos dias de treino são precisos para chegar a esse objetivo.;
 ### Number Guesser:
