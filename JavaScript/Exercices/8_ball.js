@@ -17,7 +17,7 @@ let userName = 'Flávio';
 userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
 
 let userQuestion = 'Can you answer my question?';
-console.log(`The user asked: ${$userQuestion}`);
+console.log(`The user asked: ${userQuestion}`);
 
 let randomNumber = Math.floor(Math.random() * 8);
 let eigthBall = '';
